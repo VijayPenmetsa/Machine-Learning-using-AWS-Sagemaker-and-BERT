@@ -120,6 +120,13 @@ We have used a minimal user interface in order to get the functionality of the a
 # Conclusion
 The project is a demonstration of leveraging the power of cloud for Machine Learning. We were able to do this project with the help of robust technologies from AWS(Amazon Web Services), GCP(Google Cloud Platform), Google's Flutter framework, and Google's NLP model BERT.
 
+## Our Team:
+
+**_Vijay Penmetsa, Ghanshyam Sutar, Sai Akshay Muralidhar, Yamini Soodireddy_**
+
+_Under the guidance of:_
+**_Vahid Hadavi_**
+
 
 
 

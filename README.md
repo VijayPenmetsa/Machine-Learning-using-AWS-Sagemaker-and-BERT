@@ -22,7 +22,10 @@ For the demonstration of model deployment on AWS Sagemaker, and it's usage insid
 The project contains 3 main files. 
 1. **bert_testing.ipynb** A Jupyter notebook for doing initial testing of BERT on the tweets data.
 2. **sagemaker_notebook.ipynb** The sagemaker notebook instance is responsible for Model Inference, and Data transfer between the apps.
-3. **main.dart** The dart file contains main code for the User Interface, and Firebase (firestore) for data transfer.
+3. **BEDS dataframe acquisition and EDA.ipynb** Thisw file contains the Data Acquisition code and EDA on the BEDS dataset.
+4. **recent_beds_df** This is a snapshot of the Beds Dataset.
+5. **main.dart** The dart file contains main code for the User Interface, and Firebase (firestore) for data transfer.
+
 
 The following are details of the files.
 
@@ -101,6 +104,32 @@ The notebook is an AWS Sagemaker notebook instance for accessing **_BERT's Model
 - To access the _deployed_model_ we use **boto3 API** (AWS SDK for python).
 - Once the inference is done we use the areaname, and bedtype to search and recommend the available beds near the patient. The recommendation reply is again sent back to the flutter applications via firestore.
 - In order to access the firestore from sagemaker we also need _firebase_credentials.json_ file, which can be obtained from the firebase console.
+
+## BEDS dataframe acquisition and EDA.ipynb
+
+The data source updates every 15 minutes, so we saved a snapshot of the dataset and then performed EDA.
+
+**EDA: **
+**_missing values_**
+
+<img width="1359" alt="missing" src="https://user-images.githubusercontent.com/42052561/164797746-f1f7f31a-1a57-46b9-9b43-2d89e37027e4.png">
+
+**_most popular areas in the dataset based on the available hospitals_**
+
+<img width="711" alt="Screen Shot 2022-04-22 at 4 03 08 PM" src="https://user-images.githubusercontent.com/42052561/164798201-d74ee135-a33e-4a78-9c71-fa17a82114d8.png">
+
+**_Beds count for the entire dataframe_**
+
+<img width="751" alt="total" src="https://user-images.githubusercontent.com/42052561/164798438-0a02cacc-b3d0-4bc2-9c1c-38b648393880.png">
+
+**_Bed counts for the most popular areas_**
+
+<img width="350" alt="bengaluru" src="https://user-images.githubusercontent.com/42052561/164798585-f9a6186d-9e23-44ec-88b3-7907bd38c0d9.png">  
+
+
+<img width="350" alt="delhi" src="https://user-images.githubusercontent.com/42052561/164798620-353e47b9-9cee-47ce-a541-de45bd521579.png">  
+
+<img width="350" alt="pune" src="https://user-images.githubusercontent.com/42052561/164798643-038c1f76-a506-4224-b221-fde181da4250.png">  
 
 ## main.dart
 

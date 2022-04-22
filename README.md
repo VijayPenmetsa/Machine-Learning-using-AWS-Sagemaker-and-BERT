@@ -56,7 +56,7 @@ The **main libraries** used in this notebook are _regex, pandas, numpy, matplotl
 2. The tweets evaluation dataset has been split into 4 parts for testing.
 3. For recommending beds to the patient, we need 2 input parameters (bedtype and area), so we're removing tweets without area names.
 
-## Model Inference
+### **_Model Inference_**
 
 ### Example Scenario
 
@@ -73,7 +73,7 @@ If a bed type is provided in the tweet, the algorithm will try to retrieve beds 
 An example reply would be:
 ### 10 Oxygen beds are available in: AASTHA HOSPITAL, Badli Rd, Sector 19, Rohini, New Delhi, Delhi 110042, India
 
-## Model Accuracy
+### **_Model Accuracy_**
 There is no direct function available to test BERT's accuracy, so we designed a function _calculate_accuracy()_ that will analyze bert's inference result, and outputs the accuracy. The function looks for keywords like 'icu', 'oxygen', 'urgent', etc.. and if these words are found in the inference result, we consider it as a correct prediction.
 
 BERT's accuracy performance for 4 evaluation datasets, without and with city names are as follows:
@@ -105,11 +105,12 @@ The notebook is an AWS Sagemaker notebook instance for accessing **_BERT's Model
 - Once the inference is done we use the areaname, and bedtype to search and recommend the available beds near the patient. The recommendation reply is again sent back to the flutter applications via firestore.
 - In order to access the firestore from sagemaker we also need _firebase_credentials.json_ file, which can be obtained from the firebase console.
 
-## BEDS dataframe acquisition and EDA.ipynb
+## Beds dataframe acquisition and EDA.ipynb
 
 The data source updates every 15 minutes, so we saved a snapshot of the dataset and then performed EDA.
 
-**EDA: **
+**Exploratory Data Analysis:**
+
 **_missing values_**
 
 <img width="1359" alt="missing" src="https://user-images.githubusercontent.com/42052561/164797746-f1f7f31a-1a57-46b9-9b43-2d89e37027e4.png">

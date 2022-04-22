@@ -124,12 +124,11 @@ The data source updates every 15 minutes, so we saved a snapshot of the dataset 
 
 **_Bed counts for the most popular areas_**
 
-<img width="350" alt="bengaluru" src="https://user-images.githubusercontent.com/42052561/164798585-f9a6186d-9e23-44ec-88b3-7907bd38c0d9.png">  
+<img width="350" alt="bengaluru" src="https://user-images.githubusercontent.com/42052561/164798585-f9a6186d-9e23-44ec-88b3-7907bd38c0d9.png">  <img width="350" alt="c" src="https://user-images.githubusercontent.com/42052561/164802687-77c44ae9-b7f5-4a12-bee0-4657a689fd75.png">
 
+<img width="350" alt="delhi" src="https://user-images.githubusercontent.com/42052561/164798620-353e47b9-9cee-47ce-a541-de45bd521579.png">  <img width="350" alt="w" src="https://user-images.githubusercontent.com/42052561/164802730-8e100d22-a008-4626-84fd-8ab96201bb43.png">
 
-<img width="350" alt="delhi" src="https://user-images.githubusercontent.com/42052561/164798620-353e47b9-9cee-47ce-a541-de45bd521579.png">  
-
-<img width="350" alt="pune" src="https://user-images.githubusercontent.com/42052561/164798643-038c1f76-a506-4224-b221-fde181da4250.png">  
+<img width="350" alt="pune" src="https://user-images.githubusercontent.com/42052561/164798643-038c1f76-a506-4224-b221-fde181da4250.png">  <img width="350" alt="m" src="https://user-images.githubusercontent.com/42052561/164802851-d3dfdde1-bea1-4a2b-ade0-a1d4a08b935b.png">
 
 ## main.dart
 

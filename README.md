@@ -151,7 +151,7 @@ The project is a demonstration of leveraging the power of cloud for Machine Lear
 
 ## Our Team:
 
-**_Vijay Penmetsa, Ghanshyam Sutar, Sai Akshay Muralidhar, Yamini Soodireddy_**
+**_Vijay Penmetsa, Ghanshyam Sutar, Yamini Soodireddy_**
 
 _Under the guidance of:_
 **_Vahid Hadavi_**
